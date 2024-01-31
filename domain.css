@@ -1,0 +1,61 @@
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image {
+    width: 50%;
+    padding: 20px;
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.domain_article {
+    width: 50%;
+    padding: 20px;
+}
+
+.domain_article h2 {
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.domain_article p {
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.button-menu {
+    display: flex;
+    align-items: center;
+    
+}
+
+.secondary-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(247, 192, 195);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.secondary-button:hover{
+    background-color: rgb(119, 49, 72);
+    transition: 0.5s;
+    color: whitesmoke;
+
+}
+
+.new-button {
+    margin-left: 10px;
+}
