@@ -1,0 +1,16 @@
+
+
+.position {
+    margin: 20px;
+    background-color: cadetblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: antiquewhite;
+    padding: 20px;
+    
+
+}
