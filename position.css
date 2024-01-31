@@ -11,6 +11,14 @@
 .box {
     background-color: antiquewhite;
     padding: 20px;
-    
+}
 
+.position {
+    position: relative;
+}
+
+.box2 {
+    position: absolute;
+    left: 30px;
+    top: 5px;
 }
