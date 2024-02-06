@@ -28,6 +28,7 @@
     margin-bottom: 10px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--dark);
 }
 
 .domain_article p {
