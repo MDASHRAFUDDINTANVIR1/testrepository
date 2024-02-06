@@ -8,8 +8,34 @@
 .coloumn h2 {
     text-align: center;
 }
-.coloumn p {
+.column-text p {
     column-count: 3;
     column-gap: 20px;
     column-rule: 1.2px solid black;
+}
+
+
+.tooltip {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    height: auto;
+    background-color:lightyellow;
+    padding: 5px;
+    border: 1px dotted lightslategray;
+    position: absolute;
+    z-index: 1;
+    font-size: 14px;
+    color: red;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
