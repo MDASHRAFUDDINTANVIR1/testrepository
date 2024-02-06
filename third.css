@@ -37,3 +37,8 @@
     color: transparent;
 
 }
+
+.masking h2::selection {
+    background-color: yellow;
+    color: black;
+}
