@@ -1,13 +1,18 @@
 
 
 .coloumn {
-    width: 80%;
-    margin: 0 auto;
+    
     margin-bottom: 40px;
+    padding: 30px;
+    background-color: rgb(255, 234, 237);
 }
 .coloumn h2 {
     text-align: center;
+    font-size: 30px;
+    color: var(--dark);
+    border-bottom: 1px solid black;
 }
+
 .column-text p {
     column-count: 3;
     column-gap: 20px;
