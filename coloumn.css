@@ -1,0 +1,15 @@
+
+
+.coloumn {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.coloumn h2 {
+    text-align: center;
+}
+.coloumn p {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 1.2px solid black;
+}
