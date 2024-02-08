@@ -52,9 +52,14 @@
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 .header_button {
     transition: all 0.6s ease-in-out;
+}
+
+.primary-button:hover {
+    background-color: rgb(2, 37, 52);
+    color: whitesmoke;
+    transition: 0.8s;
 }
 
 
