@@ -1,0 +1,47 @@
+
+
+.transition-part {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.transition-portion {
+    width: 50%;
+    padding: 20px;
+    
+}
+
+.transition-portion img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 1px 3px 4px rgb(177, 171, 171);
+    
+}
+.transition-portion p {
+    width: 60%;
+    margin: 15px 0;
+    
+}
+.main-transition {
+    position: relative;
+    
+}
+
+.transition-button {
+    position: absolute;
+    
+}
+
+.extra {
+    transition: all 0.8s ease-in-out;
+}
+
+.extra:hover {
+    padding: 15px 20px;
+    font-size: 20px; 
+}
