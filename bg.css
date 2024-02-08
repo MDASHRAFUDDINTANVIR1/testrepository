@@ -54,7 +54,7 @@
 }
 
 .header_button {
-    transition: all ease-in-out 0.7s;
+    transition: all 0.6s ease-in-out;
 }
 
 
