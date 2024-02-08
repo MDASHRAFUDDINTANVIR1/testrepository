@@ -13,7 +13,7 @@
 }
 
 .column-text p {
-    column-count: 3;
+    column-count: 2;
     column-gap: 20px;
     column-rule: 1.2px solid black;
 }
