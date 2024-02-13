@@ -60,6 +60,10 @@
 }
 
 
+.tooltip {
+    font-weight: 500;
+}
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
