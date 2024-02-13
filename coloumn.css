@@ -19,7 +19,24 @@
 }
 
 .sub-div {
-    
+    display: flex;
+    padding: 20px;
+
+}
+
+.sub1 {
+    width: 50%;
+    padding: 20px;
+}
+
+.sub2 {
+    width: 50%;
+    padding: 20px;
+}
+
+.sub1 img{
+    width: 100%;
+    height: auto;
 }
 
 .tooltip {
