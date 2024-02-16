@@ -1,14 +1,15 @@
 
 .transition-part {
     display: flex;
-    padding: 30px;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .transition-portion {
     width: 50%;
-    padding: 20px;
     text-align: center;
     
 }
