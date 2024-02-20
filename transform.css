@@ -1,0 +1,31 @@
+.transform-part {
+    margin-top: 30px;
+    background-color: antiquewhite;
+}
+
+.transform-part h2 {
+    padding: 20px;
+
+}
+
+.transform-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box {
+    padding: 10px;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+
+.box1 {
+    transform: ;
+}
+
+.box:hover {
+    background-color: darkorchid;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
