@@ -1,0 +1,27 @@
+
+
+.grid-col {
+    margin: 50px 0;
+    background-color: azure;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid-part {
+    background-color: rgb(151, 206, 243);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.grid-part > button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+}
