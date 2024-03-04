@@ -25,3 +25,44 @@
     color: white;
     background-color: darkblue;
 }
+
+.grid-area {
+    background-color: antiquewhite;
+    padding: 30px;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header-part header-part header-part"
+    "main-part main-part sidebar-portion"
+    "footer-part footer-part footer-part"
+    ;
+
+}
+.header-part {
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 5px;
+    grid-area: header-part;
+    
+}
+.main-part{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+    grid-area: main-part;
+}
+.sidebar-portion {
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 5px;
+    grid-area: sidebar-portion;
+}
+.footer-part {
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 5px;
+    grid-area: footer-part;
+}
